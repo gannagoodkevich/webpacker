@@ -45,6 +45,7 @@ group :development do
   gem "bootstrap_form"
   gem 'bootswatch-rails'
   gem "bootstrap_form"
+  gem 'rubocop'
 end
 
 group :test do
