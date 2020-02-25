@@ -17,6 +17,8 @@ class HelloWorld extends React.Component {
     handleSubmitName(event) {
         localStorage.setItem("name", this.state.name);
         event.preventDefault();
+        $("#carouselExampleControls").show();
+        $("#greeting").html("<h1>" + "Hello " + this.state.name + "</h1>");
     }
 
     render() {
